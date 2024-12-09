@@ -1,0 +1,14 @@
+{
+  "name": "mcje-cxx",
+  "version": "0.0.1",
+  "dependencies": [
+    {
+      "name": "boost",
+      "version>=": "1.86.0"
+    },
+    {
+      "name": "sfml",
+      "version>=": "2.6.2"
+    }
+  ]
+}
