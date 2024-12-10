@@ -9,6 +9,10 @@
     {
       "name": "sfml",
       "version>=": "2.6.2"
+    },
+    {
+      "name": "glad",
+      "version>=": "0.1.36"
     }
   ]
 }

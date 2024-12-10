@@ -12,6 +12,7 @@ find_package(SFML
             audio
         CONFIG
             REQUIRED)
+find_package(glad CONFIG REQUIRED)
 
 add_executable(MCJE_CXX source/main.cpp)
 
@@ -21,4 +22,5 @@ target_link_libraries(MCJE_CXX
             sfml-network
             sfml-graphics
             sfml-window
-            sfml-audio)
+            sfml-audio
+            glad::glad)
